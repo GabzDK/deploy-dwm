@@ -93,9 +93,7 @@ st_install(){
 
     echo "ST installed!"
 }
-config_dir(){
-    
-}
+
 # Call the function
 picom_animations
 dwm_install
