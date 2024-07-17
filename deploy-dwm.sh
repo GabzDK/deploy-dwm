@@ -76,7 +76,7 @@ dwm_install(){
 }
 st_install(){
     if [  ! -d $HOME/.config/st ]; then
-        if !git https://github.com/GabzDK/dkst $HOME/.config/st; then
+        if ! git clone https://github.com/GabzDK/dkst $HOME/.config/st; then
             echo "Failed to clone the ST repository"
             return 1
         fi
